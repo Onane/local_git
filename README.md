@@ -19,3 +19,6 @@
 - 更改局部用户名：```git config user.name "xxxx"```
 - 更改局部邮箱：```git config user.email "xxxx"```
 - 更改全局(也就是用户目录下.gitconfig文件)：```git config --global user.name "xxxx"```
+- 访问超时可尝试此操作
+  - 设置代理：```git config --global https.proxy```
+  - 取消代理:```git config --global --unset hrrps.proxy```
