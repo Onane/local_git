@@ -8,8 +8,8 @@
 - 获取远程仓库最新代码：```git fetch origin main```
 - 比较版本不同：```git log -p main ..origin/main```
 - 与本地合并：```git merge origin/main```
-- 放入暂存区：```git add ```+ file
-- 添加备注：```git commit -m ```+ 'message'
+- 放入暂存区：```git add [file1] [file2]```
+- 添加备注：```git commit -m 'message'```
 - 查看暂存区文件：```git ls-files```
 - 本地代码推送到远程仓库：```git push origin main```
   - ```git push <远程主机名> <本地分支名>:<远程分支名>```
